@@ -243,6 +243,12 @@ export interface ServerConfiguration {
     'RemoteClientBitrateLimit'?: number;
     /**
      * 
+     * @type {number}
+     * @memberof ServerConfiguration
+     */
+    'RemoteClientDownloadLimit'?: number;
+    /**
+     * 
      * @type {boolean}
      * @memberof ServerConfiguration
      */

@@ -1009,6 +1009,12 @@ export interface BaseItemDto {
      * @memberof BaseItemDto
      */
     'CurrentProgram'?: BaseItemDto;
+    /**
+     * Gets or sets the value required to show the item in latest section.
+     * @type {boolean}
+     * @memberof BaseItemDto
+     */
+    'IncludeInLatest'?: boolean | null;
 }
 
 
